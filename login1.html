@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset="utf-8">
+    <title>Assignment 2</title>
+
+    <!-- Keep wireframe.css for debugging, add your css to style.css -->
+    <link id='wireframecss' type="text/css" rel="stylesheet" href="../wireframe.css" disabled>
+    <link id='stylecss' type="text/css" rel="stylesheet" href="css/style.css">
+
+    <script src='../wireframe.js'></script>
+</head>
+
+<body>
+
+    <header>
+
+        <div id="logo"><img src='4.jpg' alt='officework logo' /></div>
+
+    </header>
+
+    <nav>
+        <section id="menu">
+            <a href="login1.html"><em>Clogin</em></a>
+            <a href="register.html"><em>Cregister</em></a>
+			 <a href="Mlogin.html"><em>Mlogin</em></a>
+            <a href="Mregister.html"><em>Mregister</em></a>
+            <div id="login"><a href="login.php">Login</a></div>
+        </section>
+    </nav>
+
+    <main>
+
+        <form action="login.php" method="post" name="form1">
+            <fieldset>
+                <legend>Clogin</legend>
+                <tr>
+                    <label>Email: </label>
+                    <br>
+                    <input type="email" value="" name="enter">
+
+                </tr>
+                <br>
+                <tr>
+                    <label>Password: </label>
+                    <br>
+                    <input type="password" value="" name="password">
+
+                </tr>
+                <br>
+
+                <tr>
+
+                    <input type="reset" value="reset">
+                    <input type="submit" value="submit">
+                </tr>
+            </fieldset>
+        </form>
+    </main>
+    <div id="up">
+        <a href="#top"><img src="../../media/up.png" alt="up" width="50" height="50"></a>
+    </div>
+    <footer>
+        <a href="products.txt">Products Spreadsheet</a> <a href="orders.txt">Orders Spreadsheet</a>
+        <div>&copy;
+            <script>
+                document.write(new Date().getFullYear());
+
+            </script>Name: Jinghua Gu,Yuzhong Ma | Student Number: s3653714,s3614493 | Group Name: Super.</div>
+        <div>Disclaimer: This website is not a real website and is being developed as part of a School of Science Web Programming course at RMIT University in Melbourne, Australia.</div>
+        <div><button id='toggleWireframeCSS' onclick='toggleWireframe()'>Toggle Wireframe CSS</button></div>
+    </footer>
+
+</body>
+
+</html>
